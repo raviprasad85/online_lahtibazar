@@ -13,7 +13,13 @@
   </properties>
   
   <dependencies>
-  <!--java ee api  -->
+  <!-- Link Backend project -->
+  <dependency>
+    <groupId>ravi.com</groupId>
+  <artifactId>lahtibazarbackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  <!--java EE api  -->
   <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 <dependency>
     <groupId>javax</groupId>
